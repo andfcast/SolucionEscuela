@@ -1,0 +1,14 @@
+D:\Pruebas\SolucionEscuela\EscuelaEntities\bin\Debug\net6.0\EscuelaEntities.deps.json
+D:\Pruebas\SolucionEscuela\EscuelaEntities\bin\Debug\net6.0\EscuelaEntities.dll
+D:\Pruebas\SolucionEscuela\EscuelaEntities\bin\Debug\net6.0\EscuelaEntities.pdb
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.AssemblyInfoInputs.cache
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.AssemblyInfo.cs
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.csproj.CoreCompileInputs.cache
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.dll
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\refint\EscuelaEntities.dll
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.pdb
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\ref\EscuelaEntities.dll
+D:\Pruebas\SolucionEscuela\EscuelaEntities\bin\Debug\net6.0\EscuelaEntities.runtimeconfig.json
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.csproj.AssemblyReference.cache
+D:\Pruebas\SolucionEscuela\EscuelaEntities\obj\Debug\net6.0\EscuelaEntities.genruntimeconfig.cache

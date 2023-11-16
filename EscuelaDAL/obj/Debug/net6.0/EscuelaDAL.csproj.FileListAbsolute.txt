@@ -1,0 +1,17 @@
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaDAL.deps.json
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaDAL.dll
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaDAL.pdb
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.AssemblyInfoInputs.cache
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.AssemblyInfo.cs
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.csproj.CoreCompileInputs.cache
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.dll
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\refint\EscuelaDAL.dll
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.pdb
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\ref\EscuelaDAL.dll
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaEntities.dll
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaUtils.dll
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaEntities.pdb
+D:\Pruebas\SolucionEscuela\EscuelaDAL\bin\Debug\net6.0\EscuelaUtils.pdb
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.csproj.AssemblyReference.cache
+D:\Pruebas\SolucionEscuela\EscuelaDAL\obj\Debug\net6.0\EscuelaDAL.csproj.CopyComplete
