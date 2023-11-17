@@ -31,29 +31,40 @@ namespace EscuelaDAL.Implementacion
         {
             return Convertidor.ANotaDto(_context.Notas.FirstOrDefault(x => x.Id == id)!);
         }
-        public bool Crear(NotaDto dto)
+        public bool Crear(NotaDto dto, ref string error)
         {
             try
             {
+                if (_context.Notas.Count(x => x.IdEstudiante == dto.IdEstudiante && x.IdProfesor == dto.IdProfesor && x.Nombre.ToLower() == dto.Asignatura.ToLower() && x.Valor == dto.Valor) > 0) {
+                    error = "Ya existe un registro con los mismos valores. Favor revisar";
+                    return false;
+                }
                 _context.Notas.Add(Convertidor.ANota(dto));
                 _context.SaveChanges();
                 return true;
             }
             catch (Exception)
             {
+                error = "Error al actualizar registro";
                 return false;
             }
         }
-        public bool Actualizar(NotaDto dto)
+        public bool Actualizar(NotaDto dto, ref string error)
         {
             try
             {
+                if (_context.Notas.Count(x => x.IdEstudiante == dto.IdEstudiante && x.IdProfesor == dto.IdProfesor && x.Nombre.ToLower() == dto.Asignatura.ToLower() && x.Valor == dto.Valor && x.Id != dto.Id) > 0)
+                {
+                    error = "Ya existe un registro con los mismos valores. Favor revisar";
+                    return false;
+                }
                 _context.Notas.Update(Convertidor.ANota(dto));
                 _context.SaveChanges();
                 return true;
             }
             catch (Exception)
             {
+                error = "Error al actualizar registro";
                 return false;
             }
         }

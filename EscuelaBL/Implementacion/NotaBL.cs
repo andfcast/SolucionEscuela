@@ -38,20 +38,22 @@ namespace EscuelaBL.Implementacion
         }
         public RespuestaDto Crear(NotaDto dto)
         {
-            bool esExitoso = _entidadDal.Crear(dto);
+            string msgProceso = "OK";
+            bool esExitoso = _entidadDal.Crear(dto, ref msgProceso);
             return new RespuestaDto
             {
                 Exitoso = esExitoso,
-                Mensaje = "OK"
+                Mensaje = msgProceso
             };
         }
         public RespuestaDto Actualizar(NotaDto dto)
         {
-            bool esExitoso = _entidadDal.Actualizar(dto);
+            string msgProceso = "OK";
+            bool esExitoso = _entidadDal.Actualizar(dto, ref msgProceso);
             return new RespuestaDto
             {
                 Exitoso = esExitoso,
-                Mensaje = esExitoso ? "OK" : "Error"
+                Mensaje = msgProceso
             };
         }
         public RespuestaDto Borrar(int id)

@@ -10,8 +10,8 @@ namespace EscuelaDAL.Interfaces
     {
         List<T> Listar();
         T ObtenerInfo(int id);
-        bool Crear(T dto);
-        bool Actualizar(T dto);
+        bool Crear(T dto, ref string error);
+        bool Actualizar(T dto, ref string error);
         bool Borrar(int id);
     }
 }

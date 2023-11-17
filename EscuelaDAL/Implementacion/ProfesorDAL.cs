@@ -30,10 +30,15 @@ namespace EscuelaDAL.Implementacion
         {
             return Convertidor.AProfesorDto(_context.Profesores.FirstOrDefault(x => x.Id == id)!);
         }
-        public bool Crear(ProfesorDto dto)
+        public bool Crear(ProfesorDto dto, ref string error)
         {
             try
             {
+                if (_context.Profesores.Count(x => x.Nombre.ToLower() == dto.Nombre.ToLower()) > 0)
+                {
+                    error = "Ya existe un registro con los mismos valores. Favor revisar";
+                    return false;
+                }
                 _context.Profesores.Add(Convertidor.AProfesor(dto));
                 _context.SaveChanges();
                 return true;
@@ -43,10 +48,15 @@ namespace EscuelaDAL.Implementacion
                 return false;
             }
         }
-        public bool Actualizar(ProfesorDto dto)
+        public bool Actualizar(ProfesorDto dto, ref string error)
         {
             try
             {
+                if (_context.Estudiantes.Count(x => x.Nombre.ToLower() == dto.Nombre.ToLower() && x.Id != dto.Id) > 0)
+                {
+                    error = "Ya existe un registro con los mismos valores. Favor revisar";
+                    return false;
+                }
                 _context.Profesores.Update(Convertidor.AProfesor(dto));
                 _context.SaveChanges();
                 return true;
